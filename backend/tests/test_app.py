@@ -10,7 +10,7 @@ def test_get_users(monkeypatch):
     client = app.app.test_client()
     response = client.get("/api/users")
     data = json.loads(response.data)
-    assert "Rohit" in data
+    assert "Manish" in data
     assert "SkillShikshya" in data
 
 def test_add_user(monkeypatch):
