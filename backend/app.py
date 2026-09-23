@@ -27,9 +27,9 @@ def home():
     <p>Use the following curl commands to interact with the API:</p>
     <ul>
       <li><b>View users:</b><br>
-          <code>curl http://<Worker Node IP>:5000/api/users</code></li>
+          <code>curl http://Worker Node IP:5000/api/users</code></li>
       <li><b>Add a user:</b><br>
-          <code>curl -X POST http://<Worker Node IP>:5000/api/users -H "Content-Type: application/json" -d '{"name":"NewStudent"}'</code></li>
+          <code>curl -X POST http://Worker Node IP:5000/api/users -H "Content-Type: application/json" -d '{"name":"NewStudent"}'</code></li>
     </ul>
     """
 
